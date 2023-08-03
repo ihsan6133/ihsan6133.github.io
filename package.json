@@ -1,0 +1,19 @@
+{
+  "name": "ihsan6133.github.io",
+  "version": "0.0.0",
+  "description": "ihsan6133's personal website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihsan6133/ihsan6133.github.io.git"
+  },
+  "author": "Ihsan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihsan6133/ihsan6133.github.io/issues"
+  },
+  "homepage": "https://github.com/ihsan6133/ihsan6133.github.io#readme"
+}
