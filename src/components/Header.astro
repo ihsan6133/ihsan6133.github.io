@@ -1,10 +1,14 @@
 ---
-
+import { Image } from "astro:assets";
+import pfp from "../assets/pfp.jpg";
 ---
 
 <header>
-    <div>
-        <p>Ihsan6133</p>
+    <div class="flex">
+        <a href="/" class="url-container">
+            <Image src={pfp} alt="Profile Picture" width="50" height="50" />
+            <p>Ihsan6133</p>
+        </a>
         <a href="">Accounts</a>
     </div>
 </header>
@@ -12,19 +16,28 @@
 
 <style>
 	header {
-        background-color: rgb(var(--accent-dark));
+        background-color: rgba(var(--accent-dark), 0.8);
 		color: white;
 		padding: 1rem;
 	}
 	
-    div {
+    .flex {
         display: flex;
         justify-content: space-between;
         align-items: center;
         max-width: 1140px;
         margin: auto;
     }
-    
+    .url-container {
+        display: flex;
+        gap: 15px;
+    }
+    .url-container img {
+        border-radius: 10%;
+        width: 2rem;
+        height: 2rem;
+    }
+
     p {
 		font-size: 1.25rem;
 		font-weight: 700;

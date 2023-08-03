@@ -1,0 +1,59 @@
+---
+import { Image } from "astro:assets";
+import pfp from "../assets/pfp.jpg";
+---
+
+<section>
+    <div class="flex">
+        <div>
+            <h1>Ihsan6133</h1>
+            <p>Welcome to my website!</p>
+        </div>
+        <Image src={pfp} alt='Profile picture' width={500} height={500} class='pfp'/>
+    </div>
+</section>
+
+<style>
+    section {
+        background: rgba(var(--accent-dark), 0.8);
+        color: white;
+    }
+    .flex{
+        margin: auto;
+        max-width: 1140px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+        padding: 2rem 1rem;
+    }
+    
+    .pfp {
+        width: 12rem;
+        height: 12rem;
+        border-radius: 1rem;	
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    @media (min-width: 768px) {
+        .flex {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .pfp {
+            height: 6rem;
+            width: 6rem;
+        }
+    } 
+    h1 {
+        margin: 0;
+    }
+    p {
+        margin: 0;
+    }
+
+</style>

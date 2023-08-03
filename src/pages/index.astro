@@ -2,17 +2,15 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Header from '../components/Header.astro';
+import Banner from '../components/Banner.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Ihsan6133">
 	<Header/>
+	
+	
 	<main>
-		<section>
-			<div>
-				<h1>Ihsan6133</h1>
-				<p>Welcome to my website!</p>
-			</div>
-		</section>
+		<Banner/>
 
 	</main>
 </Layout>
@@ -26,22 +24,5 @@ import Header from '../components/Header.astro';
 		color: white;
 	}
 	
-	section {
-		padding: 1rem;
-		padding-top: 3rem;
-		background: linear-gradient(to bottom, rgb(var(--accent-dark)), rgba(var(--accent-dark), 0.7	));
-	}
-	section div {
-		margin: auto;
-		max-width: 1140px;
-			
-	}
-
-	h1 {
-		margin: 0;
-	}
-	p {
-		margin: 0;
-	}
 
 </style>
