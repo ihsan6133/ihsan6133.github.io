@@ -4,19 +4,20 @@ import pfp from "../assets/pfp.jpg";
 ---
 
 <header>
-    <div class="flex">
+    <nav class="flex">
         <a href="/" class="url-container">
             <Image src={pfp} alt="Profile Picture" width="50" height="50" />
             <p>Ihsan6133</p>
         </a>
-        <a href="">Accounts</a>
-    </div>
+        <ul class="right">
+            <li><a href="">Accounts</a></li>
+        </ul>
+    </nav>
 </header>
 
 
 <style>
 	header {
-        background-color: rgba(var(--accent-dark), 0.8);
 		color: white;
 		padding: 1rem;
 	}
@@ -48,4 +49,17 @@ import pfp from "../assets/pfp.jpg";
 		color: white;
 		text-decoration: none;
 	}
+
+    .right {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 15px;   
+    }
+
+    .right svg {
+        height: 2rem;
+        width: 2rem;
+    }
 </style>

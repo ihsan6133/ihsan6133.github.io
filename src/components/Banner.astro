@@ -1,9 +1,14 @@
 ---
 import { Image } from "astro:assets";
 import pfp from "../assets/pfp.jpg";
+import Header from '../components/Header.astro';
+import Socials from '../components/Socials.astro';
+
 ---
 
 <section>
+    <Header/>
+
     <div class="flex">
         <div>
             <h1>Ihsan6133</h1>
@@ -11,11 +16,15 @@ import pfp from "../assets/pfp.jpg";
         </div>
         <Image src={pfp} alt='Profile picture' width={500} height={500} class='pfp'/>
     </div>
+
+    <Socials/>
 </section>
 
 <style>
     section {
-        background: rgba(var(--accent-dark), 0.8);
+        background: rgb(7,53,103);
+        background: linear-gradient(180deg, rgba(7,53,103,1) 0%, rgba(7,53,103,0.633578431372549) 100%);
+
         color: white;
     }
     .flex{
@@ -38,7 +47,7 @@ import pfp from "../assets/pfp.jpg";
         font-size: 2.5rem;
     }
     
-    @media (min-width: 768px) {
+    @media (min-width: 481px) {
         .flex {
             flex-direction: row;
             align-items: center;
@@ -55,5 +64,6 @@ import pfp from "../assets/pfp.jpg";
     p {
         margin: 0;
     }
+
 
 </style>
