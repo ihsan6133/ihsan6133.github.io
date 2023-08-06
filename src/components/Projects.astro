@@ -1,0 +1,113 @@
+---
+import { Image } from "astro:assets";
+import filteImg from "../assets/filte.png";
+import tinyCssImg from "../assets/tinycssdemo.png";
+import brainskImg from "../assets/brainsk.png";
+---
+
+<section>
+    <div class="container">
+        <h1>Projects</h1>
+        <p>These are some of the projects I've worked on.</p>
+        
+        <div class="grid">
+            <a href="https://github.com/ihsan6133/filte">
+                <Image src={filteImg} alt="Filte" width={1000}/>
+                <div class="description">
+                    <h3>Filte</h3>
+                    <p>A local file hosting application, with cached image thumbnails</p>
+                </div>
+            </a>
+            <a href="https://github.com/ihsan6133/tiny.css">
+                <Image src={tinyCssImg} alt="Tiny CSS"/>
+                <div class="description">
+                    <h3>Tiny CSS</h3>
+                    <p>A very minimal css library to quickly build a webpage.</p>
+                </div>
+            </a>
+            <a href="https://github.com/ihsan6133/brainsk">
+                <Image src={brainskImg} alt="Brainsk"/>
+                <div class="description">
+                    <h3>Brainsk</h3>
+                    <p>A website of mine where I post articles of random subjects.</p>
+                </div>
+            </a>
+        </div>
+    
+    </div>
+</section>
+
+<style>
+    section {
+        padding: 1rem;
+    }
+
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+
+    }
+
+    @media (min-width: 481px) {
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (min-width: 768px) {
+        .grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    a {
+        border-radius: 0.5rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-decoration: none;
+        color: black;
+        transition-duration: 0.2s;
+
+    }
+
+    a:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transform: scale(1.02);
+    }
+
+    .grid img {
+        width: 100%;
+        height: 9rem;
+
+        object-fit: cover;
+        object-position: top;
+        border-radius: inherit;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .description {
+        text-decoration: none;
+        padding: 0.7rem;
+    }
+
+    .grid p {
+        margin: 0;
+        font-size: 1rem;
+    }
+</style>

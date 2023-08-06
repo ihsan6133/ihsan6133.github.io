@@ -42,6 +42,8 @@ const socials = {
         height: 2rem;
     }
 
+ 
+
     @media screen and (min-width: 481px) {
         ul {
             justify-content: center;
@@ -56,6 +58,13 @@ const socials = {
 
     path {
         transition-duration: 0.2s;
+    }
+
+    li {
+        transition-duration: 0.2s;
+    }
+    li:hover {
+        transform: scale(1.1);
     }
     a:hover svg path {
         fill: #bebebe;
