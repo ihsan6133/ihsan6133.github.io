@@ -19,7 +19,7 @@
             </p>
         
             <p>
-                Outside of programming, I like listening to music and podcasts, play games and watch movies.
+                Outside of programming, I like listening to music and <a href="#ref-podcasts">podcasts</a>, play <a href="#ref-games">games</a> and watch movies.
             </p>
             
         </div>
@@ -43,5 +43,24 @@
         line-height: 1.8;
     }
 
+    a::before {
+        content: "[";
+    }
+
+    a {
+        display: inline-block;
+        color: rgb(34, 119, 204);
+        text-decoration: none;
+
+        transition-duration: 0.2s;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a::after {
+        content: ']';
+    }
 
 </style>
