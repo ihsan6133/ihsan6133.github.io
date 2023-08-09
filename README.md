@@ -2,11 +2,8 @@
 
 The source code of my website, located at https://ihsan6133.github.io.
 
-## 🚧🚧🚧 Currently a work in progress! 🚧🚧🚧
-
+This project is built using [Astro](https://astro.build/), a static site generator.
 
 ## License
 
-Copyright (c) 2023 Muhammed Ihsan
-
-Licensed under the [MIT](LICENSE) license.  
+This project is licensed under the [MIT](LICENSE) license.  
