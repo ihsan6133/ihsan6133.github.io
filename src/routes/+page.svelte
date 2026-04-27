@@ -8,6 +8,10 @@
 
 </script>
 
+<svelte:head>
+    <title>Muhammed Ihsan Hashim</title>
+</svelte:head>
+
 <div class="app">
     <section>
         <div class="left">
