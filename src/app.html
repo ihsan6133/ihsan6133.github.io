@@ -4,6 +4,19 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="text-scale" content="scale" />
+
+		<script>
+			// Check localStorage or system preference immediately
+			const savedTheme = localStorage.getItem('theme');
+			const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+			
+			if (savedTheme === 'dark' || (!savedTheme && systemDark)) {
+				document.documentElement.setAttribute('data-theme', 'dark');
+			} else if (savedTheme === 'light') {
+				document.documentElement.setAttribute('data-theme', 'light');
+			}
+		</script>
+
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
