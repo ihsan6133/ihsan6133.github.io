@@ -26,7 +26,7 @@
             </div>
             <div class="nav">
                 <a href="/resume.pdf">Resume</a> 
-                <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256" style="fill:rgb(68 140 125 / 50%)"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>                
+                <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>                
                 
             </div>
         </div>
@@ -62,15 +62,15 @@
             <p>I love connecting with new people and sharing ideas and conversations! Feel free to reach out to me via my socials below.</p>
             <ul>
                 <li><b>LinkedIn:</b> <a href="https://linkedin.com/in/ihsanhashim">@ihsanhashim</a> 
-                    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256" style="fill:rgb(68 140 125 / 50%)"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>
                 </li>
 
                 <li><b>Email:</b> <a href="mailto:mihsan6133@gmail.com">mihsan6133@gmail.com</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256" style="fill:rgb(68 140 125 / 50%)"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>
                 </li>
 
                 <li><b>GitHub:</b> <a href="https://github.com/ihsan6133">@ihsan6133</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256" style="fill:rgb(68 140 125 / 50%)"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>
                 </li>
 
             </ul>
@@ -87,7 +87,7 @@
         display: flex;
         flex-direction: column;
 
-        padding: 3rem;
+        padding: 3.5rem 3rem;
         font-size: 0.95rem;
         font-weight: 300;
 
@@ -159,7 +159,7 @@
         text-decoration: underline;
 
         text-underline-offset: 3px;
-        text-decoration-thickness: 1.5px;
+        text-decoration-thickness: 1px;
         text-decoration-color: var(--accent-light);
         
     }
@@ -185,8 +185,12 @@
 
     @media (min-width: 1024px) {
         .app {
-            padding-top: 5rem;
+            padding-top: 6.5rem;
         }
+    }
+
+    svg {
+        fill: var(--accent-light);
     }
 
 
