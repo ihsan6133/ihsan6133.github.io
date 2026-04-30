@@ -98,7 +98,7 @@
                 </li>
                 
                 <li>
-                    <Link href="/tinycss"><strong>tiny.css</strong></Link>:
+                    <Link href="/tinycss" reload><strong>tiny.css</strong></Link>:
                     A very minimalist css library to quickly build an elegant website.
 
                 </li>
