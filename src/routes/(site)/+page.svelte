@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Link from "$lib/components/Link.svelte";
     import ThemeSwitcher from "$lib/components/ThemeSwitcher.svelte";
 
     function handlePhoneticClick() {
@@ -25,8 +26,8 @@
                 </div>
             </div>
             <div class="nav">
-                <a href="/resume.pdf">Resume</a> 
-                <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>                
+                <Link href="/resume.pdf">Resume</Link> 
+                
                 
             </div>
         </div>
@@ -39,7 +40,7 @@
                 I spend a substantial portion of my time writing code and building with technology.
             </p>
             <p>
-                Besides programming, I play the guitar and the piano, and I'm also an avid aerospace enthusiast. I love trying new things and seeking out for the vast wealth of knowledge and experiences life has to offer.
+                Besides programming, I play the guitar and the piano, and I'm also an avid aerospace enthusiast and photographer. I love trying new things and seeking out for the vast wealth of knowledge and experiences life has to offer.
             </p>
         </div>
     </section>
@@ -60,17 +61,62 @@
         </div>
         <div class="right">
             <p>I love connecting with new people and sharing ideas and conversations! Feel free to reach out to me via my socials below.</p>
-            <ul>
-                <li><b>LinkedIn:</b> <a href="https://linkedin.com/in/ihsanhashim">@ihsanhashim</a> 
-                    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>
+            <ul class="contacts-ul">
+                <li><b>LinkedIn:</b> <Link href="https://linkedin.com/in/ihsanhashim">@ihsanhashim</Link>
                 </li>
 
-                <li><b>Email:</b> <a href="mailto:mihsan6133@gmail.com">mihsan6133@gmail.com</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>
+                <li><b>Email:</b> <Link href="mailto:mihsan6133@gmail.com">mihsan6133@gmail.com</Link>
                 </li>
 
-                <li><b>GitHub:</b> <a href="https://github.com/ihsan6133">@ihsan6133</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Open in new tab" width="16" height="16" viewBox="0 0 256 256"><path d="M76 88c-6.627 0-12-5.373-12-12s5.373-12 12-12h104c6.627 0 12 5.373 12 12v104c0 6.627-5.373 12-12 12s-12-5.373-12-12v-75.029l-83.515 83.514c-4.686 4.687-12.284 4.687-16.97 0-4.687-4.686-4.687-12.284 0-16.97L151.029 88H76Z"></path></svg>
+                <li><b>GitHub:</b> <Link href="https://github.com/ihsan6133">@ihsan6133</Link>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="left">
+            <h2>Projects</h2>
+        </div>
+        <div class="right">
+            <p>Throughout my journey with technology, I've worked on a variety of projects, some for fun, and some professional. Here is a list that's a small subset of projects I've worked on over the years, in no particular order (some are under development):</p>
+            <ul class="projects-ul">
+                <li>
+                    <Link href="https://orbitalcanvas.web.app/lab"><strong>Orbital Canvas</strong></Link>: 
+                    An interactive orbital mechanics and space mission simulation web application built with Svelte, Three.js, and ephemeris data from VSOP87
+                </li>
+                <li>
+                    <Link href="https://project-fai.github.io/Inside-Earth"><strong>Inside-Earth</strong></Link>:
+                    A  website that shows various systems of Earth and how they are dependent on each other, and live natural events happening in different parts of the world. Won a global nominee in the 2024 NASA Space Apps Challenge.
+                </li>
+
+                <li>
+                    <Link href="https://github.com/Project-Endeavor-2025"><strong>Project Endeavor</strong></Link>:
+                    An independent space research startup, engineering a high-altitude sensor equipped weather balloon for atmospheric research.
+
+                </li>
+                
+                <li>
+                    <Link href="/tinycss"><strong>tiny.css</strong></Link>:
+                    A very minimalist css library to quickly build an elegant website.
+
+                </li>
+
+                <li>
+                    <Link href="https://modpacker.vercel.app"><strong>Modpacker</strong></Link>:
+                    Simple way to create, share and manage minecraft modpacks. I used the curseforge API for this.
+                </li>
+                <li>
+                    <Link href="https://github.com/ihsan6133/Electro-Sim"><strong>ElectroSIM</strong></Link>:    
+                    Visualize electric fields and potentials of static charge configurations. Drag and drop charges and see fields update real-time.
+                </li>
+                <li><strong>Luz</strong>:
+                    An interpreter programming language I wrote in C++. Similar to Lua, but with a focus on ease of extensibility and shell integration. I built this to learn about language design and implementation of lexers and parsers.
+
+                </li>
+                <li><strong>Wellbeing-ASD</strong>:
+                    A mental health and student wellbeing tracking app I built for my school.
                 </li>
 
             </ul>
@@ -135,19 +181,22 @@
         flex: 60%;
     }
 
-    b {
+    b, strong {
         font-weight: 500;
     }
-    .right>ul {
+    .contacts-ul {
         list-style: none;
         padding: 0;
+        
+        margin-top: 1.5rem;
+        margin-bottom: 0;
     }
 
     p:not(:first-child) {
         padding-top: 1.5rem;
     }
 
-    li {
+    .contacts-ul li {
         display: flex;
         align-items: center;
         gap: 2px;
@@ -189,8 +238,9 @@
         }
     }
 
-    svg {
-        fill: var(--accent-light);
+    
+    .projects-ul>li {
+        margin-bottom: 0.5rem;
     }
 
 

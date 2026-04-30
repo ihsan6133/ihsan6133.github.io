@@ -24,7 +24,7 @@
 
 	
 	:global(::selection) {
-		background-color: var(--accent-light);
+		background-color: var(--selection);
 		color: var(--primary);
 	}
 	
@@ -51,7 +51,9 @@
 		--background: rgb(244, 244, 244);
  
 		--accent: #009678;
-		--accent-light: rgb(42 173 146 / 20%);
+		--accent-light: rgb(25 167 138 / 45%);
+		
+		--selection: rgba(0, 150, 120, 0.2);
 	}
 
 	:global(:root[data-theme='dark']) {
@@ -62,7 +64,10 @@
 		--background: rgb(15, 15, 15);
 
 		--accent: #3ab59c;
-		--accent-light: rgba(65, 254, 216, 0.2);
+		--accent-light: rgb(47 212 179 / 60%);
+
+		--selection: rgba(65, 254, 216, 0.2);
+
 	}
 	
 	@media (prefers-color-scheme: dark) {
@@ -74,7 +79,9 @@
 			--background: rgb(15, 15, 15);
 
 			--accent: #3ab59c;
-			--accent-light: rgba(65, 254, 216, 0.2);
+			--accent-light: rgb(47 212 179 / 60%);
+
+			--selection: rgba(65, 254, 216, 0.2);
 		}
 	}
 
